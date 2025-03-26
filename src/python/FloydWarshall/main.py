@@ -42,7 +42,7 @@ def floyWarshall(adjMatrix):
                 path[v][u] = v 
             else:
                 path[v][u] = -1
-    # run Floy-Warshall
+    # run Floyd-Warshall
     for k in range(n):
         for v in range(n):
             for u in range(n):
