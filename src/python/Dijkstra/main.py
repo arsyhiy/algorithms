@@ -1,6 +1,5 @@
 import sys 
 from heapq import heappop, heappush 
-
 # A class to store a heap node
 class Node:
     def __init__(self, vertex, weight=0):
